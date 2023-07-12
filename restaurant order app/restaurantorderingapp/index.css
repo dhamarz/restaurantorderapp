@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Smythe', cursive;
+} 
+
+header{
+}
+
+.img-container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+}
+
+.img-container img{
+    position: relative;
+    width: 100%;
+    height: 210px;
+}
+
+.head-txt{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 5px;
+}
+
+.item{
+    width: 100%;
+    height: 170px;
+
+}
+
+.item h2, h1, p{
+    font-weight: normal;
+    padding: 0px;
+    margin: 5px;
+}
+
+.item h1{
+    font-size: 60px;
+}
+
+.item h2{
+    font-size: 30px;
+}
+
+.item-inner{
+    border-bottom: 1px solid #D2D2D2;
+    display: flex;
+    position: relative;
+    height: 150px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    
+}
+
+
+.item-txt{
+    margin-left: 40px;
+}
+
+.fa-regular{
+    position: absolute;
+    right: 50px;
+    top: 60px;
+}
+
+.fa-regular:hover, .fa-trash:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #FFFFFF;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modal-inner{
+    width: 290px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal-close-btn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #16db99;
+  color: whitesmoke;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    cursor: pointer;
+}
+
+.modal input, button{
+    width: 270px;
+    padding: 15px;
+    border: 1px solid #757575;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.modal button{
+    width: 300px;
+}
+
+.modal h2{
+    color: #000000;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+}
+
+
+.complete-container button{
+    width: 60%;
+    margin: 10px 20px;
+}
+
+.complete-container{
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid gray;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.price{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.checkout-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-items{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.checkout-container h1{
+    margin-left: 270px;
+}
+
+.checkout-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.menu-items span{
+    position: absolute;
+    right: 100px;
+    font-size: 20px;
+}
+
+.menu-items p{
+    font-size: 25px;
+}
+
+#total-price{
+    position: absolute;
+    right: 100px;
+}
+
+#total-price:before{
+    content: '£'
+}
+
+#complete-order{
+    background-color: #16db99;
+    border: none;
+    color: whitesmoke;
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 55px;
+}
+
+.confirmed{
+    background-color: #ECFDF5;
+    color: #065F46;
+    padding: 5px 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: normal;
+}
